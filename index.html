@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+    <title>Грузовая техника SHACMAN от официального дилера </title>
+</head>
+<body>
+    <div  class="modal__overlay"></div>
+            <div class="modal">
+                <span class="modal__close"></span>
+                <h3 class="modal__title">Заказать звонок</h3>
+                <p  class="modal__descripion">Мы перезвоним вам в течение 10 минут</p>
+                <input class="modal__field" type="text" name="name" placeholder="" value="">
+                <input class="modal__field" type="tel" name="phone" placeholder="" value="">
+                <div class="modal__checkbox">
+                    <input type="checkbox">
+                    <p>Согласие на обработку персональных данных</p>
+                </div>
+                <button class="button" type="submit">Заказать звонок</button>
+            </div>
+    
+
+
+    <div class="wrapper">
+        <div main-header__wrapper >
+        <header class="header">
+           
+                <div class="sub__header ">
+                    <div class="header__container "> 
+                            <div class="header__content-start">
+                                <div class="location__header-wrapp">
+                                    <p class="location__sity-text">Ваш город:</p> 
+                                    <form class="location__sity ">   
+                                        <span></span>
+                                        <select class=" location__city-choice ">
+                                            <option>Москва</option>
+                                            <option>Синий</option>
+                                            <option>Розовый</option>
+                                            <option>Чёрный </option>
+                                            <option>Белый</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            
+                            <div class="header__mobile-block mobile-block "> 
+                                <a class="header__mobile-number mobile-number connection__link--drop" href="tel:8 (999) 643-64-31" type="phone">8 (999) 643-64-31</a>
+                                <div class="connection__modal-wrapp">
+                                    <div class="connection__item header__modal-number header__modal-mobile-block modal-mobile-block">
+                                        <a class=" modal-mobile-number" href="tel:8 (999) 643-64-31" type="phone">8 (999) 643-64-31</a>
+                                    </div>
+                                    <div class="connection__item header__modal-number modal-call-number">
+                                            <a href="tel:8 (929) 663-55-89" type="phone" alt=""> 8 (929) 663-55-89</a>
+                                    </div>
+                                    <div class="connection__item header-modal__email modal-email">
+                                        <a href="mailto:shacman-mos@yandex.ru" type="email" alt=""> shacman-mos@yandex.ru</a>
+                                    </div>
+                                </div> 
+                            </div>
+
+                        </div>  
+
+                        <div class="header__content-center " >
+                            <a href="/#" class="header__logo"><img src="/img/main/logo.svg" alt=""></a>
+                        </div>
+
+                        <div class="header__content-end ">
+                            <div class="header__connection connection">
+                                <div class="header__call-number call-number">
+                                    <a href="tel:8 (929) 663-55-89" type="phone" alt=""> 8 (929) 663-55-89</a>
+                                </div>
+                                <div class="header__email email">
+                                    <a href="mailto:shacman-mos@yandex.ru" type="email" alt=""> shacman-mos@yandex.ru</a>
+                                </div>
+                            </div>
+                                <button class="header__button button">Заказать звонок</button>
+                            
+                        </div>
+                        <button class="burger-menu">
+                            <span></span>
+                        </button>
+                    
+                    </div>
+                </div>
+               
+                <div class="menu-header">
+                    <div class="menu-header__container">
+                        <div class="header__menu menu">
+                            <nav class="menu__body">
+                                <ul class="menu__list">
+                                    <li class="menu__item"><a data-goto=".page__section_1 href="#"  class=" menu__link-catalog  nav__link--drop">Каталог</a>
+                                        <ul class="nav__list--dropdown dropdown-list nav__list--dropdown-catalog dropdown-submenu">
+                                        <li class="dropdown-submenu__item"></li>
+                                        <li class="dropdown-list__item mobile-back"><a href="#" class="dropdown-list__link mobile-back__link">Назад</a></li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="list__arrow list__arrow-right">Самосвалы</a>
+                                                <ul class="nav__submenu-list--dropdown">
+                                                    <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">f2000 </a></li>
+                                                    <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">F3000</a></li>
+                                                    <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">X3000</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">Седельные тягачи</a></li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">МИКСЕРЫ</a></li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">ШАССИ</a></li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">Cargo</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item"><a data-goto=".page__section_2" href="#" class="menu__link">О бренде</a></li>
+                                    <li class="menu__item"><a data-goto=".page__section_3" href="#"class="menu__link" >О компании</a></li>
+                                    <li class="menu__item"> 
+                                        <a href="#!" class="list__arrow nav__link--drop"class="menu__link">Партнеры</a>
+                                        <ul class="menu__sub-list  nav__list--dropdown">
+                                            <li class="dropdown-list__item mobile-back"><a href="#" class="dropdown-list__link mobile-back__link">Назад</a></li>
+                                            <li class="dropdown-submenu__list-item"> <a href="" >Сервис и обслуживание </a> </li>
+                                            <li class="dropdown-submenu__list-item"><a href="" >Лизинг</a> </li>
+                                            <li class="dropdown-submenu__list-item"> <a href="" >Оплата</a> </li>
+                                            <li class="dropdown-submenu__list-item"> <a href="" >Гарантия</a> </li>
+                                        </ul>
+                                    </li>
+
+                                    
+                                   
+
+
+                                </ul>
+                            </nav>
+                            <nav class="menu__body-tablet">
+                                <ul class="menu__list">
+                                    <li class="menu__item"><a data-goto=".page__section_1 href="#"  class=" menu__link-catalog  nav__link--drop">Каталог</a>
+                                        <ul class="nav__list--dropdown dropdown-list nav__list--dropdown-catalog dropdown-submenu">
+                                        <li class="dropdown-submenu__item"></li>
+                                        <li class="dropdown-list__item mobile-back"><a href="#" class="dropdown-list__link mobile-back__link">Назад</a></li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="list__arrow list__arrow-right">Самосвалы</a>
+                                                <ul class="nav__submenu-list--dropdown">
+                                                    <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">f2000 </a></li>
+                                                    <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">F3000</a></li>
+                                                    <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">X3000</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">Седельные тягачи</a></li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">МИКСЕРЫ</a></li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">ШАССИ</a></li>
+                                            <li class="dropdown-submenu__list-item"><a href="#" class="menu__link">Cargo</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu__item"><a data-goto=".page__section_2" href="#" class="menu__link">О бренде</a></li>
+                                    <li class="menu__item"><a data-goto=".page__section_3" href="#"class="menu__link" >О компании</a></li>
+                                    <li class="menu__item"> 
+                                        <a href="#!" class="list__arrow nav__link--drop"class="menu__link">Партнеры</a>
+                                        <ul class="menu__sub-list  nav__list--dropdown">
+                                            <li class="dropdown-list__item mobile-back"><a href="#" class="dropdown-list__link mobile-back__link">Назад</a></li>
+                                            <li class="dropdown-submenu__list-item"> <a href="" >Сервис и обслуживание </a> </li>
+                                            <li class="dropdown-submenu__list-item"><a href="" >Лизинг</a> </li>
+                                            <li class="dropdown-submenu__list-item"> <a href="" >Оплата</a> </li>
+                                            <li class="dropdown-submenu__list-item"> <a href="" >Гарантия</a> </li>
+                                        </ul>
+                                    </li>
+
+                                    
+                                   
+
+
+                                </ul>
+                            </nav>
+                              <div class="overlay"></div>
+
+                          
+                        </div>
+                        <div class="search">
+                            <input class="header__search" type="text" placeholder="Поиск по сайту">
+                        </div>
+
+                    </div>
+                </div>
+        </header>
+
+        <!-- Главный экран  -->
+        <main class="main__screen">
+            <div class="main__container"> 
+                <div class="main__content">
+                    <h1 class="main__title">Грузовая техника
+                         <span class="key-name">SHACMAN</span> <br> 
+                         от официального дилера 
+                    </h1>
+                    <div class="main__duscription">Большой ассортимент наличия техники. 
+                        Эксклюзивные условия покупки в лизинг. 
+                        Доставка в любой город России. 
+                    </div>
+                    <div class="main__buttons">
+                        <a class="main__button button">Подобрать модель самосвала</a>
+                        <div class="main__secondary-button secondary-button"><a>Перейти в каталог</a></div>
+                    </div>
+                </div>     
+            </div>
+        </main>
+
+        <!-- Каталог -->
+        <section class="main-catalog__screen">
+            <div class="main-catalog__container"> 
+                <div class="main-catalog__content">
+                    <h2 class="main-catalog__title">Каталог техники</h2>
+                    <div class="main-catalog__list">
+                         <a href="#!" class="catalog__link"> <img src="/img/catalog/Mixers.png" alt=""><span></span> Миксеры</a>
+                        
+                         <a href="#!" class="catalog__link"> <img src="/img/catalog/drump_trucks.png" alt=""> Самосвалы</a>
+                    
+                        <a href="#!" class="catalog__link"> <img src="/img/catalog/Sedel-truck.png" alt=""> Седельные тягачи</a>
+                        
+                       <a href="#!" class="catalog__link">  <img src="/img/catalog/chassis.png" alt=""> Шасси</a>
+                    </div>
+                </div>     
+            </div>
+        </section>
+
+
+        <!-- Галерея -->
+        <section class="gallery__screen">
+            <div class="catalog__container"> 
+                <div class="slider">
+                    <div class="slider__button-prev"></div>
+
+                    <div class="swiper__wrapper">
+
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                            
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                            
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                            
+                        <div class="gallery__card">
+                            <img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                            
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                            
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                            
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                            
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                        
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                        
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                        
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                        
+                        <div class="gallery__card"><img src="/img/gallery/Shacman SX32586T384c.jpg" alt="">
+                            <div class="gallery__card-name">Shacman SX3258DR384</div>
+                        </div>  
+                        
+                    </div>
+                    <div class="slider__button-next"></div>
+
+
+                  
+                </div>        
+            </div>        
+        </section>    
+
+
+        <section class="modification">
+            <div class="modification__container">
+                <h2 class="modification__title">Выбирайте любую модификацию типа кабины</h2>
+                     <div class="modification-slide__button-prev"></div>
+                    <div class="modification-slide__slider">
+                        <div class="modification-slide__wrapper">
+                            <div class="modification__card">
+                                <div class="modification__picture"></div>
+                                <div class="modification__content">
+                                    <h3 class="modification__card-title">SHACMAN F2000  </h3>
+                                    <button class="modification__button button ">Подробнее</button>
+                                </div>
+                                <div class="modification__description">Типы грузовых автомобилей: самосвал, седельный тягач, миксер, шасси. 
+                                    Назначение: перевозка несыпучих/сыпучих грузов; перевозка/смешивание бетонной смеси; установка на грузовую платформу специального оборудования.</div>
+                            </div> 
+                            <div class="modification__card">
+                                <div class="modification__picture modification__picture-pic_2 "></div>
+                                <div class="modification__content">
+                                    <h3 class="modification__card-title">SHACMAN F3000 </h3>
+                                    <button class="modification__button button ">Подробнее</button>
+                                </div>
+                                <div class="modification__description">Типы грузовых автомобилей: самосвал, седельный тягач, миксер, шасси. 
+                                    Назначение: перевозка несыпучих/сыпучих грузов; перевозка/смешивание бетонной смеси; установка на грузовую платформу специального оборудования.</div>
+                            </div> 
+                            <div class="modification__card">
+                                <div class="modification__picture modification__picture-pic_3"></div>
+                                <div class="modification__content">
+                                    <h3 class="modification__card-title">SHACMAN X3000  </h3>
+                                    <button class="modification__button button ">Подробнее</button>
+                                </div>
+                                <div class="modification__description">Типы грузовых автомобилей: самосвал, седельный тягач, миксер, шасси. 
+                                    Назначение: перевозка несыпучих/сыпучих грузов; перевозка/смешивание бетонной смеси; установка на грузовую платформу специального оборудования.</div>
+                            </div> 
+                        </div>
+                </div>     
+                <div class="modification-slide__button-next"></div>
+            </div> 
+        </section>
+
+
+        <div class="questions__background">
+            <div class="questions__container">
+                <div class="questions__container">
+                    <div class="questions__container">
+                        <div class="questions__content-wrapper">
+                            <div class="questions__content-info">
+                                <h2 class="questions__title">Остались вопросы? Перезвоним через 10 минут</h2>
+                                <div class="questions__description">
+                                    Или напишите нам на почту  <a type="email" href="mailto:shacman-mos@yandex.ru">shacman-mos@yandex.ru</a>  либо перезвоните по номеру</div>
+                                    <a class="form__tel" href="tel:79996436431">+7 (999) 643-64-31</a>
+                            </div>
+                            <form action="">
+                                <div><input class="form__field" type="tel" placeholder="Введите телефон" name="phone">
+                                    <button class="button form__button" type="submit">Заказать обратный звонок</button></div>
+                                    
+                                <input  id="agreement" type="checkbox">
+                                <label for="agreement">Я даю согласие на обработку персональных данных</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about-us">
+            <div class="about-us__container">
+                <div class="about-us__content">
+                    <div class="about-us__title">О компании</div>
+                    <div class="about-us__description">Мы работаем с производителем из Китая на правах официального дилера.
+                         Последние модели автомобилей «Shacman» в комплектации с современными дизельными двигателями класса 
+                         ЕВРО 5 брендов «Weichai» и «Cummins». 
+                         <br> <br>
+                        Помимо этого, обеспечиваем сервисное обслуживание, поставляем оригинальные запчасти, принимаем машины в ремонт с гарантией. 
+                        <br> <br>
+                        Для компаний, желающих обновить парк автомобилей промышленного класса, на договорной основе организовываем обучение водителей и обслуживающего персонала. Полный комплекс услуг, касающихся эксплуатации авто марки Shacman — только у нас. </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="benefits">
+            <div class="benefits__container">
+                <div class="benefits__wrapper">
+                    <div class="benefits__title">Преимущества работы с нами</div>
+                    <div class="benefits__cards">
+                        <div class="benefits__card">
+                            <div class="benefits__picture   benefits__pic-1"></div>
+                            <div class="benefits__card-title">Техника в наличии</div>
+                            <div class="benefits__card-text">Заключаем договор только при наличии техники.  </div>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__picture   benefits__pic-2"></div>
+                            <div class="benefits__card-title">Официальный дилер </div>
+                            <div class="benefits__card-text">Имеем подтверждающие документы. </div>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__picture   benefits__pic-3"></div>
+                            <div class="benefits__card-title">Гарантия поставки</div>
+                            <div class="benefits__card-text">Не срываем сроки поставки техники. </div>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__picture   benefits__pic-4"></div>
+                            <div class="benefits__card-title">Сервисное и гарантийное обслуживание от производителя </div>
+                            <div class="benefits__card-text">В течение 1 суток. Поставка оригинальных запасных частей.  </div>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__picture   benefits__pic-5"></div>
+                            <div class="benefits__card-title">Идеальное соотношение цена/качество </div>
+                            <div class="benefits__card-text">Качественный аналог по доступной цене.  </div>
+                        </div>
+                        <div class="benefits__card">
+                            <div class="benefits__picture   benefits__pic-6"></div>
+                            <div class="benefits__card-title">Лизинг на выгодных условиях </div>
+                            <div class="benefits__card-text benefits__card-text-column">
+                                Аванс – от 15%. <br>
+                                От 12 месяцев. <br>
+                                Сумма до 30 млн рублей. <br>
+                                Одобрение – 96%. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="advantage">
+            <div class="advantage__container">
+                <div class="advantage__wrapper">
+                    <div class="advantage__title">Техника Shacman — лучшие грузовые автомобиле по разумной цене </div>
+                    <div class="advantage__cards">
+                        <div class="advantage__card">
+                            <div class="advantage__picture advantage__pic-1"></div>
+                            <div class="advantage__wrapper-info">
+                                <div class="advantage__card-number">01</div>
+                                <div class="advantage__card-title">ОФИЦИАЛЬНОЕ ПРЕДСТАВИТЕЛЬСТВО</div>
+                            </div>
+                        </div>
+                        <div class="advantage__card">
+                            <div class="advantage__picture advantage__pic-2"></div>
+                          <div class="advantage__wrapper-info">
+                                <div class="advantage__card-number">02</div>
+                                <div class="advantage__card-title">ГАРАНТИЯ И НАДЕЖНОСТЬ</div>
+                          </div>
+                        </div>
+                        <div class="advantage__card">
+                            <div class="advantage__picture advantage__pic-3"></div>
+                            <div class="advantage__wrapper-info">
+                                <div class="advantage__card-number">03</div>
+                                <div class="advantage__card-title">О КОМПАНИИ SHACMAN </div>
+                            </div>
+                        </div>
+                        <div class="advantage__card">
+                            <div class="advantage__picture advantage__pic-4"></div>
+                          <div class="advantage__wrapper-info">
+                                <div class="advantage__card-number">04</div>
+                                <div class="advantage__card-title">ОБ ОФИЦИАЛЬНОМ ДИЛЛЕРЕ</div>
+                          </div>
+                        </div>
+                        <div class="advantage__card">
+                            <div class="advantage__picture advantage__pic-5"></div>
+                            <div class="advantage__wrapper-info">
+                                <div class="advantage__card-number">05</div>
+                                <div class="advantage__card-title">СЕРВИСНОЕ ОБСЛУЖИВАНИЕ </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        
+        <div class="questions__background">
+            <div class="questions__container">
+                <div class="questions__container">
+                    <div class="questions__container">
+                        <div class="questions__content-wrapper">
+                            <div class="questions__content-info">
+                                <h2 class="questions__title">Остались вопросы? Перезвоним через 10 минут</h2>
+                                <div class="questions__description">
+                                    Или напишите нам на почту  <a type="email" href="mailto:shacman-mos@yandex.ru">shacman-mos@yandex.ru</a>  либо перезвоните по номеру</div>
+                                    <a class="form__tel" href="tel:79996436431">+7 (999) 643-64-31</a>
+                            </div>
+                            <form action="">
+                                <div><input class="form__field" type="tel" placeholder="Введите телефон" name="phone">
+                                    <button class="button form__button" type="submit">Заказать обратный звонок</button></div>
+                                    
+                                <input class="checkbox" id="agreement" type="checkbox">
+                                <label for="agreement">Я даю согласие на обработку персональных данных</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quiz">
+            <div class="quiz__container">
+                <div class="quiz__wrapper">
+                    <h2 class="quiz__title">Ответьте на 6 вопросов для подбора модели самосвала</h2>
+                    <div class="quiz__app" id="quiz">
+                        <div class="quiz-tabs">
+                        <nav class="nav__tabs">
+                            <span class="quiz__indicator"></span>
+                            <nav class="tabs__items">
+                                <a class="tabs__item "type="button"  data-tab="#tab_1">Объем</a>
+                                <a class="tabs__item" type="button" data-tab="#tab_2">Колесная формула</a>
+                                <a class="tabs__item" type="button" data-tab="#tab_3">Тип загрузки</a>
+                                <a class="tabs__item" type="button" data-tab="#tab_4">Тип кабины</a>
+                                <a class="tabs__item" type="button" data-tab="#tab_5">Рассчет</a>
+                                <a class="tabs__item" type="button" data-tab="#tab_6">Контакты</a>
+                            </nav>
+                        </nav>    
+                            <div class="tabs__body">
+                                <div id="#tab_1" class="tabs__block">
+                                    <div class="tab__wrapper">
+                                        <div class="quiz__question" id="questions">1. Какой объем кузова самосвала вы рассматриваете?</div>
+                                          <div class="quiz__optin-wrapper">
+                                            <input id="19" class="quiz__option" type="checkbox">
+                                            <label class="chackbox__label" for="19">19 м³</label>
+                                            <input id="26" class="quiz__option" type="checkbox">
+                                            <label class="chackbox__label" for="26">26 м³</label>
+                                            <input id="35" class="quiz__option" type="checkbox">
+                                            <label class="chackbox__label" for="35">35 м³</label>
+                                            <input id="suggest_all_options" class="quiz__option" type="checkbox">
+                                            <label class="chackbox__label" for="suggest_all_options">Предложить все  варианты</label>
+                                          </div>
+                                    </div>
+                                    <div class="quiz__controls" id="results">
+                                        <button class="button__quiz-back" id="btn-back"></button>
+                                        <button class="button__quiz button"id="btn-next">Следующий параметр</button>
+                                    </div>
+                                </div>  
+                                <div id="#tab_2" class="tabs__block">
+                                    <div class="tab__wrapper">
+                                        <div class="quiz__question" id="questions">2. Какая колесная формула должна быть?</div>
+                                          <div class="quiz__optin-wrapper">
+                                            <input id="6х4" class="quiz__o  ption" type="checkbox">
+                                            <label for="6х4">6х4</label>
+                                            <input id="6х6"   class="quiz__option" type="checkbox">
+                                            <label for="6х6">6х6</label>
+                                            <input id="8х4" class="quiz__option" type="checkbox">
+                                            <label for="8х4">8х4</label>
+                                            <input id="suggest_all_options" class="quiz__option" type="checkbox">
+                                            <label for="suggest_all_options">Предложить все  варианты</label>
+                                          </div>
+                                    </div>
+                                    <div class="quiz__controls">
+                                        <button class="button__quiz-back" ></button>
+                                        <button class="button__quiz button" id="btn-next">Следующий параметр</button>
+                                    </div>
+                                </div>  
+                                <div id="#tab_3" class="tabs__block">
+                                    <div class="tab__wrapper">
+                                        <div class="quiz__question" id="questions">3. Тип разгрузки самосвала</div>
+                                        <div class="quiz__optin-wrapper">
+                                            <input id="rear" class="quiz__option" type="checkbox">
+                                            <label for="rear">Задний</label>
+                                            <input id="side" class="quiz__option" type="checkbox">
+                                            <label for="side">Боковой</label>
+                                            <input id="bilateral" class="quiz__option" type="checkbox">
+                                            <label for="bilateral">Двусторонний</label>
+                                            <input id="trilateral" class="quiz__option" type="checkbox">
+                                            <label for="trilateral">Трехсторонний</label>
+                                            <input id="suggest_all_options" class="quiz__option" type="checkbox">
+                                            <label for="suggest_all_options">Предложить все  варианты</label>
+                                        </div>
+                                    </div>
+                                    <div class="quiz__controls">
+                                        <button class="button__quiz-back" ></button>
+                                        <button class="button__quiz button" data-tab="#tab_4">Следующий параметр</button>
+                                    </div>
+                                </div>  
+                                <div id="#tab_4" class="tabs__block">
+                                    <div class="tab__wrapper">
+                                        <div class="quiz__question" id="questions">4. Тип кабины грузовика</div>
+                                        <div class="quiz__optin-wrapper">
+                                            <input id="rear" class="quiz__option" type="checkbox">
+                                            <label for="rear">F2000 (с 1 спальным местом)</label>
+                                            <input id="side" class="quiz__option" type="checkbox">
+                                            <label for="side">F3000 (увеличенная)</label>
+                                            <input id="bilateral" class="quiz__option" type="checkbox">
+                                            <label for="bilateral">X3000 (с 2 спальными местами)</label>
+                                            <input id="suggest_all_options" class="quiz__option" type="checkbox">
+                                            <label for="suggest_all_options">Предложить все  варианты</label>
+                                        </div>
+                                    </div>
+                                    <div class="quiz__controls">
+                                        <button class="button__quiz-back" ></button>
+                                        <button class="button__quiz button" data-tab="#tab_5">Следующий параметр</button>
+                                    </div>
+                                </div>  
+                                <div id="#tab_5" class="tabs__block">
+                                    <div class="tab__wrapper">
+                                        <div class="quiz__question" id="questions">5. Как планируете преобретать технику?</div>
+                                        <div class="quiz__optin-wrapper">
+                                            <input id="rear" class="quiz__option" type="checkbox">
+                                            <label for="rear">наличный/безналичный рассчет</label>
+                                            <input id="side" class="quiz__option" type="checkbox">
+                                            <label for="side">Кредит/лизинг</label>
+                                        </div>
+                                    </div>
+                                    <div class="quiz__controls">
+                                        <button class="button__quiz-back" data-tab="#tab_4"></button>
+                                        <button class="button__quiz button" data-tab="#tab_6">Следующий параметр</button>
+                                    </div>
+                                </div>  
+                                <div id="#tab_6" class="tabs__block">
+                                    <div class="tab__wrapper">
+                                        <div class="quiz__question quiz__question__form" id="questions">6. Оставьте контактные данные для рассчета  </div>
+                                            <div class="quiz__optin-wrapper">
+                                            <form action="">
+                                                <p class="quiz-form-text-name">Имя*</p> <input name="name" class="quiz__field" type="text">
+                                                <p class="quiz-form-text-phone">Номер телефона*</p><input name="phone" class="quiz__field" type="tel">
+                                                <input  id="q-agreement" class="quiz-checkbox" type="checkbox">
+                                                <label for="q-agreement">Согласие на обработку персональных данных</label>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="quiz__controls">
+                                        <button class="button__quiz-back" ></button>
+                                        <button class="button__quiz button" >Следующий параметр</button>
+                                    </div>
+                                </div>  
+                            </div>
+
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        
+
+        <section class="reviews" id="reviews">
+            <div class="reviews__container">
+                <div class="reviews__wrapper">
+                    <div class="reviews__header">
+                        <div class="reviews__title">Работа с нашими клиентами</div>
+                        <div class="reviews__slider">
+                            <div class="reviews__slider-back"></div>
+                            <div class="reviews__slider-next"></div>
+                        </div>
+                    </div>
+                        <div class="reviews__gallery" id="reviews__gallery">
+                            <div class="reviews__cards">
+                                <div class="reviews__card">
+                                    <div class="reviews__review">
+                                        <div class="reviews__card-title">«Был приятно поражен, тем, что ребята приехали так быстро!»</div>
+                                        <div class="reviews__card-text">Приехав весной на дачу, был неприятно удивлен. Впервые за много лет подвал затопило, да так, что вода плескалась почти вровень с полом. Ждать пока это «озеро» само уйдет не очень хотелось. 
+                                        Поэтому, позвонил в компанию Илосос24. Был приятно поражен, тем, что ребята приехали так быстро. Они моментально откачали воду. Выходной был спасен.</div>
+                                    </div>
+                                    <div class="reviews__picture">
+                                        <img src="/img/reviews/Victor Kazantsev.png"class="reviews__name-img" alt="">
+                                        <div class="reviews__assessment">
+                                            <img src="/img/reviews/starts-reviews.svg" alt="">
+                                        </div>
+                                        <div class="reviews__name">Виктор Казанцев</div>
+                                        <div class="reviews__text">Lorem ipsum dolor sit amet</div>
+                                    </div>
+                                </div> 
+                                <div class="reviews__card">
+                                    <div class="reviews__review">
+                                        <div class="reviews__card-title">«Был приятно поражен, тем, что ребята приехали так быстро!»</div>
+                                        <div class="reviews__card-text">Приехав весной на дачу, был неприятно удивлен. Впервые за много лет подвал затопило, да так, что вода плескалась почти вровень с полом. Ждать пока это «озеро» само уйдет не очень хотелось. 
+                                        Поэтому, позвонил в компанию Илосос24. Был приятно поражен, тем, что ребята приехали так быстро. Они моментально откачали воду. Выходной был спасен.</div>
+                                    </div>
+                                    <div class="reviews__picture">
+                                        <img src="/img/reviews/Victor Kazantsev.png"class="reviews__name-img" alt="">
+                                        <div class="reviews__assessment">
+                                            <img src="/img/reviews/starts-reviews.svg" alt="">
+                                        </div>
+                                        <div class="reviews__name">Виктор Казанцев</div>
+                                        <div class="reviews__text">Lorem ipsum dolor sit amet</div>
+                                    </div>
+                                </div> 
+                                <div class="reviews__card">
+                                    <div class="reviews__review">
+                                        <div class="reviews__card-title">«Был приятно поражен, тем, что ребята приехали так быстро!»</div>
+                                        <div class="reviews__card-text">Приехав весной на дачу, был неприятно удивлен. Впервые за много лет подвал затопило, да так, что вода плескалась почти вровень с полом. Ждать пока это «озеро» само уйдет не очень хотелось. 
+                                        Поэтому, позвонил в компанию Илосос24. Был приятно поражен, тем, что ребята приехали так быстро. Они моментально откачали воду. Выходной был спасен.</div>
+                                    </div>
+                                    <div class="reviews__picture">
+                                        <img src="/img/reviews/Victor Kazantsev.png"class="reviews__name-img" alt="">
+                                        <div class="reviews__assessment">
+                                            <img src="/img/reviews/starts-reviews.svg" alt="">
+                                        </div>
+                                        <div class="reviews__name">Виктор Казанцев</div>
+                                        <div class="reviews__text">Lorem ipsum dolor sit amet</div>
+                                    </div>
+                                </div> 
+                                <div class="reviews__card">
+                                    <div class="reviews__review">
+                                        <div class="reviews__card-title">«Был приятно поражен, тем, что ребята приехали так быстро!»</div>
+                                        <div class="reviews__card-text">Приехав весной на дачу, был неприятно удивлен. Впервые за много лет подвал затопило, да так, что вода плескалась почти вровень с полом. Ждать пока это «озеро» само уйдет не очень хотелось. 
+                                        Поэтому, позвонил в компанию Илосос24. Был приятно поражен, тем, что ребята приехали так быстро. Они моментально откачали воду. Выходной был спасен.</div>
+                                    </div>
+                                    <div class="reviews__picture">
+                                        <img src="/img/reviews/Victor Kazantsev.png"class="reviews__name-img" alt="">
+                                        <div class="reviews__assessment">
+                                            <img src="/img/reviews/starts-reviews.svg" alt="">
+                                        </div>
+                                        <div class="reviews__name">Виктор Казанцев</div>
+                                        <div class="reviews__text">Lorem ipsum dolor sit amet</div>
+                                    </div>
+                                </div> 
+                            </div>
+                         
+                </div>
+                           
+                            
+                            <!-- <div class="reviews__card">
+                                <div class="reviews__review">
+                                    <div class="reviews__card-title">«Был приятно поражен, тем, что ребята приехали так быстро!»</div>
+                                    <div class="reviews__card-text">Приехав весной на дачу, был неприятно удивлен. Впервые за много лет подвал затопило, да так, что вода плескалась почти вровень с полом. Ждать пока это «озеро» само уйдет не очень хотелось. 
+                                    Поэтому, позвонил в компанию Илосос24. Был приятно поражен, тем, что ребята приехали так быстро. Они моментально откачали воду. Выходной был спасен.</div>
+                                </div>
+                                <div class="reviews__picture">
+                                    <img src="/img/reviews/Victor Kazantsev.png"class="reviews__name-img" alt="">
+                                    <div class="reviews__assessment">
+                                        <img src="/img/reviews/starts-reviews.svg" alt="">
+                                    </div>
+                                    <div class="reviews__name">Виктор Казанцев</div>
+                                    <div class="reviews__text">Lorem ipsum dolor sit amet</div>
+                                </div>
+                                <div class="reviews__control">
+                                    <div class="reviews__slider">
+                                        <div class="reviews__slider-back"></div>
+                                        <div class="reviews__slider-next"></div>
+                                    </div>
+                                    <a href="#!" class="reviews__all-button">все отзывы</a>
+                                </div> 
+                            </div> 
+                            <div class="reviews__card">
+                                <div class="reviews__review">
+                                    <div class="reviews__card-title">«Был приятно поражен, тем, что ребята приехали так быстро!»</div>
+                                    <div class="reviews__card-text">Приехав весной на дачу, был неприятно удивлен. Впервые за много лет подвал затопило, да так, что вода плескалась почти вровень с полом. Ждать пока это «озеро» само уйдет не очень хотелось. 
+                                    Поэтому, позвонил в компанию Илосос24. Был приятно поражен, тем, что ребята приехали так быстро. Они моментально откачали воду. Выходной был спасен.</div>
+                                </div>
+                                <div class="reviews__picture">
+                                    <img src="/img/reviews/Victor Kazantsev.png"class="reviews__name-img" alt="">
+                                    <div class="reviews__assessment">
+                                        <img src="/img/reviews/starts-reviews.svg" alt="">
+                                    </div>
+                                    <div class="reviews__name">Виктор Казанцев</div>
+                                    <div class="reviews__text">Lorem ipsum dolor sit amet</div>
+                                </div>
+                                <div class="reviews__control">
+                                    <div class="reviews__slider">
+                                        <div class="reviews__slider-back"></div>
+                                        <div class="reviews__slider-next"></div>
+                                    </div>
+                                    <a href="#!" class="reviews__all-button">все отзывы</a>
+                                </div> 
+                            </div> 
+                            <div class="reviews__card">
+                                <div class="reviews__review">
+                                    <div class="reviews__card-title">«Был приятно поражен, тем, что ребята приехали так быстро!»</div>
+                                    <div class="reviews__card-text">Приехав весной на дачу, был неприятно удивлен. Впервые за много лет подвал затопило, да так, что вода плескалась почти вровень с полом. Ждать пока это «озеро» само уйдет не очень хотелось. 
+                                    Поэтому, позвонил в компанию Илосос24. Был приятно поражен, тем, что ребята приехали так быстро. Они моментально откачали воду. Выходной был спасен.</div>
+                                </div>
+                                <div class="reviews__picture">
+                                    <img src="/img/reviews/Victor Kazantsev.png"class="reviews__name-img" alt="">
+                                    <div class="reviews__assessment">
+                                        <img src="/img/reviews/starts-reviews.svg" alt="">
+                                    </div>
+                                    <div class="reviews__name">Виктор Казанцев</div>
+                                    <div class="reviews__text">Lorem ipsum dolor sit amet</div>
+                                </div>
+                                <div class="reviews__control">
+                                    <div class="reviews__slider">
+                                        <div class="reviews__slider-back"></div>
+                                        <div class="reviews__slider-next"></div>
+                                    </div>
+                                    <a href="#!" class="reviews__all-button">все отзывы</a>
+                                </div> 
+                            </div> 
+                            <div class="reviews__card">
+                                <div class="reviews__review">
+                                    <div class="reviews__card-title">«Был приятно поражен, тем, что ребята приехали так быстро!»</div>
+                                    <div class="reviews__card-text">Приехав весной на дачу, был неприятно удивлен. Впервые за много лет подвал затопило, да так, что вода плескалась почти вровень с полом. Ждать пока это «озеро» само уйдет не очень хотелось. 
+                                    Поэтому, позвонил в компанию Илосос24. Был приятно поражен, тем, что ребята приехали так быстро. Они моментально откачали воду. Выходной был спасен.</div>
+                                </div>
+                                <div class="reviews__picture">
+                                    <img src="/img/reviews/Victor Kazantsev.png"class="reviews__name-img" alt="">
+                                    <div class="reviews__assessment">
+                                        <img src="/img/reviews/starts-reviews.svg" alt="">
+                                    </div>
+                                    <div class="reviews__name">Виктор Казанцев</div>
+                                    <div class="reviews__text">Lorem ipsum dolor sit amet</div>
+                                </div>
+                                <div class="reviews__control">
+                                    <div class="reviews__slider">
+                                        <div class="reviews__slider-back"></div>
+                                        <div class="reviews__slider-next"></div>
+                                    </div>
+                                    <a href="#!" class="reviews__all-button">все отзывы</a>
+                                </div> 
+                            </div>  -->
+                        </div>
+                      
+            </div>
+        </div>
+        </section>
+
+
+        <!-- <footer  class="footer">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <div class="footer__upper">
+
+                        <div class="footer__logo"><img src="/img/main/logo.svg" alt=""></div>
+
+                        <div class="footer__connection connection">
+                            <div class="header__call-number call-number">
+                                <a href="tel:8 (929) 663-55-89" type="phone" alt=""> 8 (999) 643-64-31</a>
+                            </div>
+                           <div>
+                                <div class="footer__call-number call-number">
+                                    <a href="tel:8 (929) 663-55-89" type="phone" alt=""> 8 (929) 663-55-89</a>
+                                </div>
+                                <div class="footer__email email">
+                                    <a href="mailto:shacman-mos@yandex.ru" type="email" alt=""> shacman-mos@yandex.ru</a>
+                                </div>
+                           </div>
+                        </div>
+                            
+                        <div class="footer__buttons">
+                            <div class="footer__social-network">
+                                <div class="footer__vk">
+                                    <img src="/img/footer/vk.svg" alt="">
+                                </div>
+                                <div class="footer__telegram">
+                                    <img src="/img/footer/telegram.svg" alt="">
+                                </div>
+                            </div>
+                            <button class="footer__button button">Заказать звонок</button>
+                        </div>
+
+                    </div>
+
+                    <div class="footer__lower">
+                        <nav >
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#!" class="footer__link"> Каталог техники </a></li>
+                                <li class="footer__item"><a href="#!" class="footer__link"> О бренде</a></li>
+                                <li class="footer__item"><a href="#!" class="footer__link"> О компании</a></li>
+                                <li class="footer__item"><a href="#!" class="footer__link"> Партнерам</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="footer__info">
+                            <div class="footer__info-location">Работаем по всей России</div>
+                            <div class="footer__info-timetable">Круглосуточно</div>
+                        </div>
+                    </div>
+
+                <div class="footer__privacy-policy">
+                    <div class="footer__privacy-company">©2022 ООО «ВК-Транзит» —  Официальный дилер Shacman</div>
+                    <ul class="footer__privacy-list">
+                        <li class="footer__privacy-item"><a href="#!" class="">  Политика конфиденциальности </a></li>
+                        <li class="footer__privacy-item"><a href="#!" class="">Карта сайта </a></li>
+                        <li class="footer__privacy-item"><a href="#!" class=""> Разработка сайта Int-Net-Partner</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </footer> -->
+
+
+    </div>    
+
+    </div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="/scripts/main.js"></script>
+
+      <!-- Swiper JS -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  
+      <!-- Initialize Swiper -->
+      <!-- <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script> -->
+</body>
+</html>
