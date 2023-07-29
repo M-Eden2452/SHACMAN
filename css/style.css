@@ -77,9 +77,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-:root {
-
-}
 
 .button {
     font-family: "PT Sans", serif;
@@ -164,8 +161,8 @@ body {
   left: 0;
   top: 0;
 }
-.modal__close {
-}
+
+
 .modal__title {
   font-family: 'Roboto';
   font-style: normal;
@@ -192,11 +189,6 @@ body {
   border-radius: 6px;
 }
 
-.modal__checkbox {
-}
-.button {
-}
-
 
 .modal__overlay.open {
   opacity: 1;
@@ -215,9 +207,6 @@ body {
 
 /* ————————————————————header—————————————————————————— */
 
-.main-header__wrapper {
-
-}
 
 .header {
 	position: fixed;
@@ -380,7 +369,7 @@ body {
 }
 
 .location__sity span {
-    background-image: url(/img/main/arrow.svg);
+    background-image: url(../img/main/arrow.svg);
     content: "";
     position: absolute;
     right: -12px;
@@ -464,7 +453,7 @@ option {
 }
 /* .location__city-choice span {
     position: absolute;
-    background-image: url(/img/main/arrow.svg);
+    background-image: url(../img/main/arrow.svg);
     width: 11.27px;
     height: 6px;
     top: 0;
@@ -479,7 +468,7 @@ option {
 } */
 
 .header__mobile-block {
-    background-image: url(/img/main/phone.svg);
+    background-image: url(../img/main/phone.svg);
     background-repeat: no-repeat;
     background-position: left;
     color: #fff;
@@ -498,28 +487,17 @@ option {
 
 
 
-.header__mobile-number {
-  
-}
  .mobile-number {
     padding-left: 20px;
     font-size: 16px;
     font-weight: 700;
 }
-.headr__logo {
-    
-}
+
 .header__connection {
     margin: 0px  43px 0px 1.8333333333vw ;
 }
 
 
-
-.connection {
-    /* margin-top: 37px;
-    margin-bottom: 33px; */
- 
-}
 .header__call-number {
   padding-left: 24px;
 }
@@ -529,7 +507,7 @@ option {
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
-    background: url(/img/main/phone\ number.svg) left no-repeat;
+    background: url(../img/main/phone\ number.svg) left no-repeat;
     margin-bottom: 10px;
 }
 
@@ -538,8 +516,7 @@ option {
     margin-bottom: 15px;
 }
 
-.header__email {
-}
+
 
 .email {
     color: #ffffff;
@@ -547,7 +524,7 @@ option {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    background-image: url(/img/main/massege.svg);
+    background-image: url(../img/main/massege.svg);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -563,12 +540,6 @@ option {
     padding-left: 24px;
 }
 
-.header__button {
-
-}
-.button {
-}
-
 
 @media (max-width: 986px)  {
   .header__connection {
@@ -578,7 +549,7 @@ option {
       content: "";
       width: 14px;
       height: 8px;
-      background-image: url(/img/main/arrow.svg);
+      background-image: url(../img/main/arrow.svg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -615,7 +586,7 @@ option {
     font-size: 16px;
     line-height: 21px;
     color: #000000;
-    background: url(/img/main/phone.svg) left no-repeat;
+    background: url(../img/main/phone.svg) left no-repeat;
     padding-left: 24px;
     margin-bottom: 20px;
 
@@ -630,7 +601,7 @@ option {
   }
 
   .modal-call-number {
-    background: url(/img/main/phone\ number.svg) left no-repeat;
+    background: url(../img/main/phone\ number.svg) left no-repeat;
   }
 
   .header__content:nth-child(1) {
@@ -641,7 +612,7 @@ option {
     justify-content: right;
   } 
   .header-modal__email {
-    background: url(/img/main/massege.svg) left no-repeat;
+    background: url(../img/main/massege.svg) left no-repeat;
     padding-left: 24px;
     font-weight: 400;
     font-size: 14px;
@@ -790,7 +761,7 @@ option {
   content: "";
   width: 14px;
   height: 9px;
-  background-image: url(/img/main/arrowv-button.svg);
+  background-image: url(../img/main/arrowv-button.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -841,7 +812,7 @@ option {
 }
 
 .list__arrow::after {
-  background-image: url(/img/main/arrow.svg);
+  background-image: url(../img/main/arrow.svg);
   content: "";
   width: 15px;
   height: 8px;
@@ -912,14 +883,14 @@ option {
   background-color: #4B4B4B;
   color: #343434;
   padding: 0 0 0 15px;
-  background-image: url(/img/main/Search.svg) ;  
+  background-image: url(../img/main/Search.svg) ;  
   background-position: 208px 7px;
   background-size: 21px 20px;
   background-repeat: no-repeat;
 }
 
 .header__search:hover {
-  background-image: url(/img/main/Search-orange.svg);
+  background-image: url(../img/main/Search-orange.svg);
   transition: all 0.5s ease 0s;
   background-color: #EEEEEE;
 
@@ -1020,7 +991,7 @@ option {
     align-items: center;
   }
   .mobile-back a::before {
-    background-image: url(/img/main/arrow.svg);
+    background-image: url(../img/main/arrow.svg);
     content: "";
     width: 15px;
     height: 8px;
@@ -1135,17 +1106,11 @@ option {
 }
 
 
- 
-  .nav__list--dropdown {
-  }
-
 }
 
 @media (max-width: 479.98px) {
   
-  .menu-header {
 
-  }
   .search {
     display: none;
   }
@@ -1163,7 +1128,7 @@ option {
 .main__screen {
   min-width: 100vw;
   height: 100vh;
-  background: url("/img/main/main.jpg") center no-repeat;
+  background: url("../img/main/main.jpg") center no-repeat;
   background-size: cover;
   max-width: 100%;
 
@@ -1216,9 +1181,6 @@ option {
 
 }
 
-.main__secondary-button {
-
-}
 
 .dropdown-submenu__list-item {
   padding-right: 40px;
@@ -1229,7 +1191,7 @@ option {
     padding-top: 280px;
   }
   .main__screen {
-    background-image: url(/img/main/main-768px.jpg);
+    background-image: url(../img/main/main-768px.jpg);
     background-size: cover;
   }
   .main__title {
@@ -1379,7 +1341,7 @@ option {
   width: 317px;
 }
 
-.catalog__link img{
+.catalog__link .img{
   height: 180px;
   z-index:100;
   /* filter: blur(200px); */
@@ -1393,9 +1355,9 @@ option {
   background: rgba(255, 255, 255, 1);
  */
 }
-.catalog__link img:hover {
+.catalog__link .img:hover {
   box-shadow: 50px 50px 50px 50px   rgba(255, 255, 255, 0.5) ;
-  background-image: url(/img/catalog/catalog_arrow-down.svg);
+  background-image: url(../img/catalog/catalog_arrow-down.svg);
   background-position: bottom;
 
 }
@@ -1403,9 +1365,6 @@ option {
 
 
 @media (max-width: 767px) {
-  .catalog__list {
-
-  }
 }
 /* ------------------------------------catalog-end----------------------- */
 
@@ -1447,7 +1406,7 @@ option {
   margin-right: 64px;
 }
 
-.gallery__card img{
+.gallery__card .img{
   width: 208px;
   height: 129px;
   margin-bottom: 35px;
@@ -1462,7 +1421,7 @@ option {
 }
 
 .slider__button-prev  {
-  background-image: url(/img/gallery/gallery_slider-arrow-right.svg);
+  background-image: url(../img/gallery/gallery_slider-arrow-right.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1477,7 +1436,7 @@ option {
 
 }
 .slider__button-next  {
-  background-image: url(/img/gallery/gallery_slider-arrow-left.svg);
+  background-image: url(../img/gallery/gallery_slider-arrow-left.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1551,7 +1510,7 @@ option {
 
 }
 .modification__picture {
-  background-image: url(/img/cabins/SHACMAN_F2000.jpg);
+  background-image: url(../img/cabins/SHACMAN_F2000.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1561,11 +1520,11 @@ option {
 
 }
 .modification__picture-pic_2 {
-  background-image: url(/img/cabins/SHACMAN_F3000_.jpg);
+  background-image: url(../img/cabins/SHACMAN_F3000_.jpg);
 
 }
 .modification__picture-pic_3{
-  background-image: url(/img/cabins/SHACMAN_X3000.jpg);
+  background-image: url(../img/cabins/SHACMAN_X3000.jpg);
 }
 
 .modification__content {
@@ -1584,8 +1543,7 @@ option {
   width: 116px;
   height: 30px;
 }
-.button {
-}
+
 .modification__description {
   font-weight: 400;
   font-size: 14px;
@@ -1705,7 +1663,7 @@ option {
     overflow: hidden;
   }
   .modification-slide__button-prev {
-    background-image: url(/img/cabins/cabins__arrow-left.svg);
+    background-image: url(../img/cabins/cabins__arrow-left.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1718,7 +1676,7 @@ option {
     left: 25px;
   }
   .modification-slide__button-next {
-    background-image: url(/img/cabins/cabins__arrow-right.svg);
+    background-image: url(../img/cabins/cabins__arrow-right.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1742,7 +1700,7 @@ option {
 /* ============================================== */
 
 .questions__background {
-  background-image: url(/img/background-form.jpg);
+  background-image: url(../img/background-form.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1884,7 +1842,7 @@ option {
 
 
 .about-us {
-  background-image: url(/img/background-about-company.jpg);
+  background-image: url(../img/background-about-company.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1931,8 +1889,7 @@ option {
   }
 }
 
-.benefits__wrapper {
-}
+
 .benefits__title {
   font-weight: 700;
   font-size: 36px;
@@ -1970,22 +1927,22 @@ option {
 }
 
 .benefits__pic-1 {
-  background-image: url(/img/benefits/Technique_in_stock.svg);
+  background-image: url(../img/benefits/Technique_in_stock.svg);
 }
 .benefits__pic-2 {
-  background-image: url(/img/benefits/Official_dealer.svg);
+  background-image: url(../img/benefits/Official_dealer.svg);
 }
 .benefits__pic-3 {
-  background-image: url(/img/benefits/Delivery_warranty.svg);
+  background-image: url(../img/benefits/Delivery_warranty.svg);
 }
 .benefits__pic-4 {
-  background-image: url(/img/benefits/service.svg);
+  background-image: url(../img/benefits/service.svg);
 }
 .benefits__pic-5 {
-  background-image: url(/img/benefits/price-quality.svg);
+  background-image: url(../img/benefits/price-quality.svg);
 }
 .benefits__pic-6 {
-  background-image: url(/img/benefits/profitable_terms.svg);
+  background-image: url(../img/benefits/profitable_terms.svg);
 }
 
 
@@ -2015,7 +1972,7 @@ option {
 /* ========================== advantage ====================== */
 
 .advantage {
-  background: linear-gradient(0deg, rgba(108, 108, 108, 0.2), rgba(108, 108, 108, 0.2)), url(/img/benefits/Rectangle.jpg);
+  background: linear-gradient(0deg, rgba(108, 108, 108, 0.2), rgba(108, 108, 108, 0.2)), url(../img/benefits/Rectangle.jpg);
   background-blend-mode: normal, luminosity;
 }
 
@@ -2070,7 +2027,7 @@ option {
 }
 .advantage__card:hover .advantage__card-number{
   color: #fff;
-  background-image: url(/img/benefits/number-span-white.svg);
+  background-image: url(../img/benefits/number-span-white.svg);
   transition: all 0.4s ease 0s;
 }
 
@@ -2083,19 +2040,19 @@ option {
 }
 
 .advantage__pic-1 {
-  background-image: url(/img/benefits/Official_dealer.png);
+  background-image: url(../img/benefits/Official_dealer.png);
 }
 .advantage__pic-2 {
-  background-image: url(/img/benefits/Official_dealer.png);
+  background-image: url(../img/benefits/Official_dealer.png);
 }
 .advantage__pic-3 {
-  background-image: url(/img/benefits/official\ representative.png);
+  background-image: url(../img/benefits/official\ representative.png);
 }
 .advantage__pic-4 {
-  background-image: url(/img/benefits/Intersect.png);
+  background-image: url(../img/benefits/Intersect.png);
 }
 .advantage__pic-5 {
-  background-image: url(/img/benefits/service.png);
+  background-image: url(../img/benefits/service.png);
 }
 
 
@@ -2116,7 +2073,7 @@ option {
   font-size: 54px;
   line-height: 70px;
   color: #000000;
-  background-image: url(/img/benefits/number-span-orange.svg);
+  background-image: url(../img/benefits/number-span-orange.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
   padding-bottom: 5px;
@@ -2142,7 +2099,7 @@ option {
 /* ===================================== quiz ================================= */
 
 .quiz {
-  background-image: url(/img/quiz/bc-quiz.jpg);
+  background-image: url(../img/quiz/bc-quiz.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2328,7 +2285,7 @@ option {
   position: absolute;
   width: 18px;
   height: 12px;
-  background: url(/img/check.svg) center no-repeat;
+  background: url(../img/check.svg) center no-repeat;
   position: absolute;
   top: 13px;
   left: 9px;
@@ -2392,7 +2349,7 @@ option {
   position: absolute;
   top: 50%;
   left: 50%;
-  background-image: url(/img/quiz/arrow-back-button.svg);
+  background-image: url(../img/quiz/arrow-back-button.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2423,7 +2380,7 @@ option {
   position: absolute;
   top: 50%;
   right: 19px;
-  background-image: url(/img/button-arrow.svg);
+  background-image: url(../img/button-arrow.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 13px;
@@ -2484,7 +2441,7 @@ option {
 }
 
 .reviews__slider-back {
-  background-image: url(/img/reviews/aroow_slider-left.svg);
+  background-image: url(../img/reviews/aroow_slider-left.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2495,7 +2452,7 @@ option {
   z-index: 200;
 }
 .reviews__slider-next {
-  background-image: url(/img/reviews/arrow_slider-right.svg);
+  background-image: url(../img/reviews/arrow_slider-right.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2569,7 +2526,7 @@ option {
   margin-bottom: 27px;
   border-left: 2px solid #E9E9E9;
 }
-.reviews__name-img{
+.reviews__name-.img{
   width: 128px;
   height: 128px;
 }
